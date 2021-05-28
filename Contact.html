@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+body  {
+  background-image: url("Hospital1.png");
+  background-color: #cccccc;
+  background-repeat: repeat;
+  background-size: 2000px 2500px;
+ background-blend-mode:overlay;
+}
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 70%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: 2;
+  outline: 0;
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+<center>
+<h2>MEET OUR TEAM</h2>
+</br>
+<h3>
+Feel Free to Contact us for any Queries !!!
+</h3></center>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="avatar.png" alt="Jane" style="width:50%">
+      <div class="container">
+        <h2>Pooja</h2>
+        <p class="title">CEO & Founder</p>
+        <p>CEO & Founder</p>
+        <p>pooja.s@eclinic.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="avatar.png" alt="Mike" style="width:50%">
+      <div class="container">
+        <h2>Keerthi</h2>
+        <p class="title">ADMIN</p>
+        <p>Administrator.</p>
+        <p>kee.an@eclinic.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="avatar.png" alt="John" style="width:50%">
+      <div class="container">
+        <h2>Xyz</h2>
+        <p class="title">MANAGER</p>
+        <p>Manager</p>
+        <p>jj@eclinic.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
