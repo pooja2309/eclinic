@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<img src="elogo.png" alt="Img Not available" align="right">
+<marquee>
+ <span style="color:blue;font-family:Comic Sans MS;font-weight:bold;font-size:30px;text-decoration:underline;"> </br>
+Welcome to ECLINIC- Health Management - Get Online ! </span></br></marquee>
+</head>
+<br><br>
+<style>
+body  {
+  background-image: url("Hospital1.png");
+  background-color: #cccccc;
+  background-repeat: repeat;
+  background-size: 2000px 2500px;
+ background-blend-mode: overlay;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="slideimg2.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Hospital2.jpg" style="width:100%" height="200" width="50">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="Healthcare.jpg" style="width:100%" height="200" width="150">
+
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<p style="font-family:Comic Sans MS;font-size:160%;color:blue;">
+
+<a href="Contact.html">
+<style="color:blue;margin-left:30px;">
+<span style="color:black;text-shadow:2px 2px 5px blue;"><b><i>
+Contact Us </a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Healthcares.html">
+<style="color:blue;margin-left:30px;">
+<span style="color:black;text-shadow:2px 2px 5px blue;"><b><i>
+Diagonistics</a>
+&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Userlogin.php">
+<style="color:blue;margin-left:30px;">
+<span style="color:black;text-shadow:2px 2px 5px blue;"><b><i>
+User login </a>
+&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Doclogin.php">
+<style="color:blue;margin-left:30px;">
+<span style="color:black;text-shadow:2px 2px 5px blue;"><b><i>
+Doctor login </a>
+&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="UserSignup.php">
+<style="color:blue;margin-left:30px;">
+<span style="color:black;text-shadow:2px 2px 5px blue;"><b><i>
+User Signup</a>
+&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="DoctorSignup.php">
+<style="color:blue;margin-left:30px;">
+<span style="color:black;text-shadow:2px 2px 5px blue;"><b><i>
+Doctor Signup</a>
+</br></br>
+ <span style="color:blue;font-family:Comic Sans MS;font-weight:bold;text-decoration:underline;">Find Doctors in Top Specialities:</span>
+<br/>
+<a href="Doctorslist.php">
+<img src="Finddocs.png" alt="Img Not available"  style="width:1750px;">
+<br><br>
+</a>
+<br/><br/>
+ <span style="color:blue;font-family:Comic Sans MS;font-weight:bold;text-decoration:underline;">Read Articles from Experts:</span></br>
+<a href="Articles.html">
+<img src="Articles.jpg" alt="Img Not available"  style="width:1000px;">
+</a>
+
+<br><br>
+
+<p align="center">
+<img src="elogo.png" alt="Img Not available"><br>
+<p style="color:Black">
+<center>
+Copyright 2019,eClinic.All Rights Reserved.
+</center></p>
+
+</body>
+</html> 
